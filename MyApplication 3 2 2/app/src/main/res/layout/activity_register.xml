@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.macstudent.myapplication.Register">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Screen!!!"
+        android:textColor="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+
+        android:id="@+id/layout1"
+        android:gravity="center">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_purple"/>
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:id="@+id/nametxt"/>
+
+
+
+
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+
+    android:id="@+id/layout2"
+    android:gravity="center">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="Email"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_purple"/>
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:id="@+id/emailtxt"/>
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:orientation="horizontal"
+
+android:id="@+id/layout3"
+android:gravity="center">
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="match_parent"
+    android:text="Age"
+    android:textSize="20dp"
+    android:textColor="@android:color/holo_purple"/>
+
+<EditText
+    android:layout_width="150dp"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/agetxt"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+
+        android:id="@+id/layout4"
+        android:gravity="center">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Password"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_purple"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:id="@+id/passtxt"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_purple"
+        android:layout_marginLeft="150dp"
+        android:text="SUBMIT"
+        android:id="@+id/submitBtn"
+        />
+
+    </LinearLayout>
